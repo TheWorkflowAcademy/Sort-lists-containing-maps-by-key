@@ -1,0 +1,38 @@
+originalList = listvar.toList();
+n = "000"; // Will work for a list of up to 1000 elements.
+newList = List();
+for each  l in originalList
+{
+	sortkey = l.get("Quantity_Sold") + n;
+	n = n.toLong() + 1;
+	n = n.toString();
+	if(n.length() = 1)
+	{
+		n = "00" + n;
+	}
+	else if(n.length() = 2)
+	{
+		n = "0" + n;
+	}
+	newList.add(sortkey);
+}
+newList.sort(true);
+sortedlist = List();
+for each  n in newList
+{
+	if(n.right(3).left(2) = "00")
+	{
+		index = n.right(1);
+	}
+	else if(n.right(3).left(1) = "0" && n.right(3).left(2).right(1) != "0")
+	{
+		index = n.right(2);
+	}
+	else
+	{
+		index = n.right(3);
+	}
+	map = originalList.get(index);
+	sortedlist.add(map);
+}
+info sortedlist;
