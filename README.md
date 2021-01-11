@@ -27,11 +27,11 @@ Here is the JSON string for the table.
 * Then, set the variable *n* as "000" (this will acccount for a list of up to 1000 elements).
 * `Loop` over the list, `get()` the key that you want to sort by and add *n* as the suffix.
 	* To sort by **Products** (we'll use this for this demo)
-		* sortkey = l.get("Products") + n;
+		* `sortkey = l.get("Products") + n;`
 	* To sort by **Date of Sale**
-		* sortkey = l.get("Date_of_Sale").replaceAll("-","") + n;
+		* `sortkey = l.get("Date_of_Sale").replaceAll("-","") + n;`
 	* To sort by **Quantity Sold**
-		* sortkey = l.get("Quantity_Sold") + n;
+		* `sortkey = l.get("Quantity_Sold") + n;`
 * Convert *n* to a number, add 1, then convert it back to a string.
 * If the length of *n* is one digit, we wanna add only two zeros at the front, if it's two, we should only add one zero. If it's three, zero does not need to be added.
 * At the end of the loop, add *sortkey* to the *newList* variable (this list will contain only the selected key's values with the added suffix).
