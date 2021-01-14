@@ -2,7 +2,7 @@
 Deluge script for sorting lists containing maps by the specific key (by date-time/alphabetical order) in ascending/descending order.
 
 ## Core Idea
-A list of maps is essentially a table. It has the headers (keys) and its respective values. Here's a cool function that allows to use Deluge to sort your dataset by any of the keys like sorting columns in Excel. This is acheived with some string manipulation, additions and by reassigning indexes.
+A list of maps is essentially a table. It has the headers (keys) and its respective values. Here's a cool Deluge function that allows you to sort your dataset by any of the map keys as if you're sorting columns in Excel. This is acheived with some string manipulation, additions and by reassigning indexes.
 
 ## Example Dataset
 Lets use the table below as an example. 
