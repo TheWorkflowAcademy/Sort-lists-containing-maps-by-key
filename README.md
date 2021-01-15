@@ -24,7 +24,7 @@ Here is the JSON string for the table.
 ### Select the Key for Sort, Add a Suffix to the Key, then Add to a New List
 * *listvar* is your list variable. To ensure that it is read as a list, use a `toList()` function. 
 * Create a new list (*newList*).
-* Then, set the variable *n* as "000" (this will acccount for a list of up to 1000 elements).
+* Then, set the variable *n* as "000" (this will account for a list of up to 1000 elements).
 * `Loop` over the list, `get()` the key that you want to sort by and add *n* as the suffix.
 	* To sort by **Products** (we'll use this for this demo)
 		* `sortkey = l.get("Products") + n;`
