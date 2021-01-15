@@ -1,4 +1,4 @@
-s# Sort-lists-containing-maps-by-key
+## Sort-lists-containing-maps-by-key
 Deluge script for sorting lists containing maps by the specific key (by date-time/alphabetical order) in ascending/descending order.
 
 ## Core Idea
