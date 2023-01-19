@@ -18,7 +18,38 @@ Let's use the table below as an example.
 
 Here is the JSON string for the table.
 ```javascript
-{"Products":"Orange","Date_of_Sale":"2020-04-18","Quantity_Sold":20},{"Products":"Apple","Date_of_Sale":"2020-02-28","Quantity_Sold":15},{"Products":"Kiwi","Date_of_Sale":"2020-05-15”,”Quantity_Sold":50},{"Products":"Peach","Date_of_Sale":"2020-11-22","Quantity_Sold":35},{"Products":"Strawberry","Date_of_Sale":"2020-12-24”,”Quantity_Sold":10},{"Products":"Watermelon","Date_of_Sale":"2021-01-11","Quantity_Sold”:25}
+[
+  {
+    "Products": "Orange",
+    "Date_of_Sale": "2020-04-18",
+    "Quantity_Sold": 20
+  },
+  {
+    "Products": "Apple",
+    "Date_of_Sale": "2020-02-28",
+    "Quantity_Sold": 15
+  },
+  {
+    "Products": "Kiwi",
+    "Date_of_Sale": "2020-05-15",
+    "Quantity_Sold": 50
+  },
+  {
+    "Products": "Peach",
+    "Date_of_Sale": "2020-11-22",
+    "Quantity_Sold": 35
+  },
+  {
+    "Products": "Strawberry",
+    "Date_of_Sale": "2020-12-24",
+    "Quantity_Sold": 10
+  },
+  {
+    "Products": "Watermelon",
+    "Date_of_Sale": "2021-01-11",
+    "Quantity_Sold": 25
+  }
+]
 ```
 
 ### Select the Key for Sort, Add a Suffix to the Key, then Add to a New List
